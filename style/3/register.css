@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+#reg{
+	width: auto;
+	height: 800px;
+	border: 2px solid black;
+	font-size: 2px;
+}
+#reg h2{
+	text-indent: 0;
+	text-align: center;
+}
+#reg dl{	
+	width: 500px;
+	margin: 0 0 0 300px;			
+}
+#reg dl dt{
+	text-align: 30%;
+	padding: 10px 100px;
+	font-weight: bold;
+}
+#reg dl dd{
+	padding: 0 0 10px 0;
+}
+#reg dl dd.face{	
+	padding: 5px 0 5px 65px;
+	cursor: pointer;
+}
+#reg dl dd img#code{
+	position: relative;
+	top: 5px;
+	cursor: pointer;
+}
+#reg dl dd input.text{
+	width: 220px;
+	height: 19px;
+	border: 1px dashed #333;
+	background:white;
+}
+#reg dl dd input.yzm{
+	width: 60px;
+}
+#code{
+	padding: 0 0 0 10px;
+}
+#reg dl dd input.submit{
+	width: 60px;
+	height: 19px;
+	border: 2px solid #333;
+	background: white;
+	cursor: pointer;
+	margin: 5px 0 0 120px;
+}

@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+#member #member_main table{
+	width: 90%;
+	margin: 10px auto;
+	backgrund:#ccc;
+	text-align: center;
+	border: 1px solid black;
+}
+#member #member_main table tr th, #member #member_main table tr td{
+	background: white;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #bbb;	
+}
+#member #member_main table a{
+	text-decoration: none;
+	color: black;
+}
+#member #member_main table a:hover{
+	color: #ccc;
+}
+#member #member_main #check_all #all{
+	margin: 0 10px 0 0;
+}

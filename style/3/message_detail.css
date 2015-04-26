@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+#member #member_main dl{
+	width: 500px;
+	margin: 15px auto;
+	font-size: 14px;	
+}
+#member #member_main dl dd{
+	padding: 10px 0;
+	border-bottom: 1px dashed #999;
+	line-height: 150%;
+}
+#member #member_main dl dd.input{
+	text-align: center;	
+}
+#member #member_main dl dd input{
+	margin: 0 20px 0 0;
+}

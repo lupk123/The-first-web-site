@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+#photo{
+	width: auto;
+	min-height: 800px;
+	border: 2px solid black;
+	font-size: 2px;
+}
+#photo h2{
+	text-indent: 0;
+	text-align: center;
+}
+
+#photo {
+	//border: 1px solid black;	
+	float: none;
+}
+#photo  p
+{
+	text-align: center;
+	padding: 20px 40px 0 40px;
+//	background: red;
+}
+#photo p a{
+	font-size: 20px;
+	color: #333;
+	text-decoration: none;
+}
+#photo p a:hover{
+	color: blue;
+}
+#photo dl
+{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-left: 39px;
+	margin-top: 40px;
+//	text-align: center;
+//	border: 1px solid black;
+}
+#photo dl dt
+{
+	border: none;
+}
+#photo dl dd
+{
+	padding: 2px;
+}
+#photo  a
+{
+	color: black;
+	text-decoration: none;
+}
+#photo a:hover
+{
+	color: #9cf;
+	font-size: 20px;
+}
+#photo form
+{
+	text-align: center;
+}
+#photo form input.text
+{
+	margin: 40px 20px 0 0;	
+}

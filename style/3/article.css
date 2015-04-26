@@ -1,0 +1,285 @@
+@CHARSET "UTF-8";
+#article{
+	width: auto;
+	min-height: 800px;
+	border: 2px solid black;
+	font-size: 2px;
+}
+#article h2{
+	text-indent: 0;
+	text-align: center;
+}
+#article img.nice
+{
+	position: absolute;
+	top: 182px;
+	left: 730px;
+}
+#article img.hot
+{
+	position: absolute;
+	top: 180px;
+	left: 760px;
+}
+dl.face{
+	width: 300px;
+	height: 350px;	
+	margin: 10px 0 10px 30px;	
+	float: left;
+	padding: 5px 0 0 0;
+}
+dl.face dd{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	width: 125px;
+	float: left;
+	padding: 0 auto;
+	margin: 0 0 0 20px;	
+}
+dl.face dd.user{
+	width: 250px;
+	float: none;
+	margin: 5px 0 0 0;	
+}
+dl.face dt{
+	width: 250px;
+	margin: 0 auto;
+}
+dl.face dt img{
+	display: block;
+	margin: 0 auto;
+}
+dl.face dd.message{
+	background: url(../../image/1/1.gif) no-repeat 20% center;
+}
+dl.face dd.friend{
+	background: url(../../image/1/2.gif) no-repeat 15% center;
+}
+dl.face dd.note{
+	background: url(../../image/1/3.gif) no-repeat 20% center;
+}
+dl.face dd.flower{
+	background: url(../../image/1/4.png) no-repeat 15% center;
+}
+dl.face dd.email, dl.face dd.url{
+	width: 300px;	
+	text-align: left;
+	padding: 5px 0 0 20px;
+}
+dl.face dd a{
+	text-decoration: none;
+	color: black;
+}
+dl.face dd a:hover{
+	color: #ccc;
+}
+div.content
+{
+	float: right;
+	width: 600px;	
+	padding: 10px 20px 0 0;
+}
+div.content .user
+{
+	height: 30px;
+	line-height: 30px;
+	background: url(../../image/1/master.gif) no-repeat left center;
+	border-bottom: 2px dashed #999;
+	color: #666;
+	padding-left: 20px;
+}
+div.content .user span
+{
+	float: right;	
+	color: #06f;	
+}
+div.content h3
+{
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+}
+div.content .detail
+{
+	line-height: 180%;
+	font-size: 14px;
+}
+div.content a
+{
+	text-decoration: none;
+	color: blue;
+
+}
+div.content a:hover
+{
+	color: #f60;
+}
+div.content h3 span
+{
+	color: #06f;
+	font-size: 12px;
+	font-weight: normal;
+}
+div.content h3 img
+{
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+div.content .detail p.autograph
+{
+	color: #666;
+	border-bottom: 1px solid black;	
+	margin: 100px auto;	
+	width: 60%;	
+}
+#article p.line
+{
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	clear: both;
+	border-bottom: 2px dashed #333;
+}
+div.content .read
+{
+	font-size: 14px;
+	color: #666;
+	text-align: right;
+	padding: 10px 0 5px 0;
+}
+div.content .read p
+{
+	font-size: 14px;
+	padding: 5px 0 10px 0;
+}
+
+#re
+{
+	width: 900px;
+	min-height: 350px;
+	border: 2px solid black;
+	margin: 10px auto;
+}
+#re h2
+{
+	background: #36f;
+	text-align: left;
+	font-size: 16px;
+}
+#post dl{	
+	width: 600px;
+	margin: 10px 0 10px 200px;	
+	postion: relative;	
+}
+#post dl dt{
+	text-align: 30%;
+	padding: 10px 100px;
+	font-weight: bold;
+}
+#post dl dd{
+	padding: 0 0 10px 0;
+}
+#post dl dd #ubb{
+	width: 460px;
+	height: 26px;
+	background: url(../../image/1/bg.jpg);
+	border: 1px dashed black;
+	border-bottom: none;
+}
+#post dl dd #ubb img{
+	display: block;
+	float: left;
+	padding: 5px 2px 0 0;
+}
+#post dl dd #font{
+	display: none;
+	width: 200px;
+	height: 48px;
+	background: #eee;
+	border: 1px dashed #333;
+	padding: 8px;
+	line-height: 20px;
+	position: absolute;
+	top: 0x;
+	left: 425px;
+}
+#post dl dd #font strong{
+	font-weight: none;
+	margin-left: 5px;
+	background: #fff;
+	border: 1px solid #ccc;
+	cursor: default;
+}
+#post dl dd #color{
+	display: none;
+	width: 152px;
+	height: 130px;
+	border: 1px dashed black;
+	background: #eee;
+	font-size: 12px;
+	position: absolute;
+	left: 540px;
+	padding-left: 4px;
+	padding-top: 4px; 
+}
+#post dl dd #color strong{
+	width: 12px;
+	height: 12px;
+	display: block;
+	border: 1px solid #999;
+	float: left;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+#post dl dd #color em{
+	display: block;
+	width: 80%;
+	height: 28px;
+	clear: both;
+}
+#post dl dd #color em input{
+	margin-top: 8px;
+	margin-left: 4px;
+	width: 136px;
+	height:20px;
+	cursor: pointer;
+	background: #fff;
+}
+#post dl dd textarea{
+	width: 450px;
+	border: 1px dashed black;
+	background: white;
+	border-top: none;
+	overflow-y: auto;
+	padding: 5px;
+}
+#post dl dd img#code{
+	position: relative;
+	top: 5px;
+	cursor: pointer;
+}
+#post dl dd input.text{
+	width: 300px;
+	height: 19px;
+	border: 1px dashed #333;
+	background:white;
+}
+#post dl dd input.yzm{
+	width: 60px;
+}
+#post dl dd.code{
+	margin: 0 0 0 230px;
+}
+#code{
+	padding: 0 0 0 10px;
+}
+#post dl dd input.submit{
+	width: 60px;
+	height: 19px;
+	border: 1px dashed #333;
+	background: white;
+	cursor: pointer;
+	margin: 10px 0 0 390px;
+}

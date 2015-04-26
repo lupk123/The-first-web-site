@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+#photo{
+	width: auto;
+	min-height: 400px;
+	border: 2px solid black;
+	font-size: 2px;
+}
+#photo h2{
+	text-indent: 0;
+	text-align: center;
+}
+#photo p{
+	text-align: center;
+	padding: 20px;
+}
+#photo p a{
+	font-size: 20px;
+	color: #333;
+	text-decoration: none;
+}
+#photo p a:hover{
+	color: blue;
+}
+#photo dl
+{
+//	background: red;
+	width: 300px;
+	margin: 20px auto;
+}
+dl dd
+{
+	padding: 5px 0;
+}
+dl dd input.text
+{
+	width: 195px;
+	height: 20px;
+	border: 1px solid #589;
+	background: #fff;
+}
+dl dd textarea
+{
+	width: 195px;
+	height: 80px;
+	border: 1px solid #589;	
+}
+dl dd input.submit
+{
+	width: 100px;
+	height: 25px;
+	margin-left: 100px;
+	cursor: pointer;
+}
+dl dd#pwd
+{
+	display: none;
+}
+dl dd a
+{
+	color: black;
+	text-decoration: none;
+}
+dl dd a:hover
+{
+	color: #9cf;
+}

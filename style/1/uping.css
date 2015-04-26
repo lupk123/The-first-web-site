@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+#up
+{
+	padding: 15px;
+}
+#up input.submit
+{
+	margin-left: 10px;
+}
